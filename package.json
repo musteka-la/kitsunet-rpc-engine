@@ -1,0 +1,19 @@
+{
+  "name": "kitsunet-rpc-engine",
+  "version": "1.0.0",
+  "description": "Simple rpc engine",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitriy Ryajov <dryajov@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "debug": "^4.1.0",
+    "multiplex": "^6.7.0",
+    "pify": "^4.0.1",
+    "pump": "^3.0.0",
+    "rpc-stream": "^2.1.2"
+  }
+}
